@@ -1,0 +1,20 @@
+spring:
+  security:
+    oauth2:
+      client:
+        provider:
+          provider-one:
+            authorization-uri: blabla
+            token-uri: blabla
+        registration:
+          registration-one:
+            provider: provider-one
+            client-id: blabla
+            client_secret: blabla
+            scope: scope-one-one, scope-one-two
+          registration-two:
+            provider: provider-one
+            client-id: blabla
+            client_secret: blabla
+            scope: scope-two-one, scope-two-two
+
